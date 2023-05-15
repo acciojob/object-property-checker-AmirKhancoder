@@ -4,11 +4,10 @@ function hasKey(key) {
   //   write your code here
 	for(let i in sampleObject){
 		if(i===key)
-		{return true 
-		else{
-			false;
-		}
+		return true 
+		
 	}
+	return false
 }
 
 // Do not change the code below
